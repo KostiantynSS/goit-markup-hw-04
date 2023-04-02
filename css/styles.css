@@ -254,7 +254,7 @@ a {
   align-items: center;
   background-color: #f4f4fd;
   border-radius: 4px;
-  width: 264px;
+ 
   height: 120px;
 }
 
@@ -279,8 +279,8 @@ a {
   gap: 24px;
 }
 .showcase-list > .item {
-  width: ((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
+  width: calc((100%-48px) / 3)
+  
 }
 /* TEAM */
 
